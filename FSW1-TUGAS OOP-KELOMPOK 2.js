@@ -77,7 +77,7 @@ class lingkaran extends bangunDatar {
 }
 
 class segiEmpat extends bangunDatar {
-  constructor(name, sisi) {
+  constructor(name, sisi, panjang, lebar) {
     super(name);
     this.sisi = sisi;
   }
@@ -91,8 +91,8 @@ class segiEmpat extends bangunDatar {
   }
 
   persegiPanjang() {
-    this.luas = this.sisi * this.sisi;
-    this.keliling = 4 * this.sisi;
+    this.luas =  panjang * lebar;
+    this.keliling = 2 * (this.panjang + this.lebar);
     this.introduce();
     
     // console.log("Luas =" + this.luas, "Keliling =" + this.keliling);
