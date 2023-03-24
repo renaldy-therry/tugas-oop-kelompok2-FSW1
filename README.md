@@ -1,4 +1,4 @@
-# tugas-oop-kelompok2-FSW1
+# Tugas OOP Kelompok 2 Kelas FSW-1
 
 Kelompok 2 Tugas OOP kelas FSW-1 Binar Academy
 
